@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -30,4 +28,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card{
+  display: flex;
+}
+.container h3{
+  border-left: 5px solid yellow;
+  margin: 10px;
 }

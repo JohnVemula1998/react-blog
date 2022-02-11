@@ -1,0 +1,25 @@
+.image{
+    width: 100%;
+    
+}
+.content-card{
+    width: 250px;
+    height: auto;
+    margin: 5px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.topic{
+    margin: 5px;
+    border-left: 5px solid yellow;
+    text-align: start;
+}
+.heading{
+    margin: 2px;
+}
+.content{
+    margin: 2px;
+    font-size: 10px;
+}
